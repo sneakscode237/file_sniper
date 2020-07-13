@@ -10,6 +10,10 @@ with open("C:\\Users\derst\PycharmProjects\File_Sniper\dirs.json") as f:
             pass
         else:
             missing_dirs.append(values)
+            for missing in missing_dirs:
+                print("%s is missing in your system!" % missing)
+    if not missing_dirs:
+        print("Every required directory exists in your system!")
 
 
 if missing_dirs:
@@ -29,5 +33,6 @@ if missing_dirs:
         print("No directories have been created!")
     else:
         print("Sorry something went wrong!")
+
 
 
