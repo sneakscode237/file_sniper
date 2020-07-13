@@ -3,7 +3,7 @@ import os
 
 missing_dirs = []
 
-with open("C:\\Users\derst\PycharmProjects\File_Sniper\dirs.json") as f:
+with open("dirs.json") as f:
     data = json.load(f)
     for values in data.values():
         if os.path.isdir(values):
