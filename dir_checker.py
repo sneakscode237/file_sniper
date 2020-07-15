@@ -10,8 +10,8 @@ with open("dirs.json") as f:
             pass
         else:
             missing_dirs.append(values)
-            for missing in missing_dirs:
-                print("%s is missing in your system!" % missing)
+    for missing in missing_dirs:
+        print("%s is missing in your system!" % missing)
     if not missing_dirs:
         print("Every required directory exists in your system!")
 
