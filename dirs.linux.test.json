@@ -1,0 +1,10 @@
+{
+  "manager" : "/home/julian/Documents/File_Management",
+  "source" : "/home/julian/Documents/File_Management/ChromeDowns",
+  "application" : "/home/julian/Documents/File_Management/Applications",
+  "image" : "/home/julian/Documents/File_Management/Images",
+  "audio" : "/home/julian/Documents/File_Management/Audio",
+  "font" : "/home/julian/Documents/File_Management/Fonts",
+  "text" : "/home/julian/Documents/File_Management/Text",
+  "video" : "/home/julian/Documents/File_Management/Videos"
+}
